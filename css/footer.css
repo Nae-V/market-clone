@@ -30,6 +30,28 @@ footer{
     font-weight: bold;
 }
 
+@keyframes icons-doong-doong {
+    0%{
+        transform: translateY(0px);
+    }
+    30%
+    {
+        transform: translatey(-5px);
+    }
+    70%
+    {
+        transform: translatey(-5px);
+    }
+    100%
+    {
+        transform: translatey(0px);
+    }
+}
+
 .footer-icons__img{
     width: 25px;
+}
+
+.footer-icons:hover .footer-icons__img{
+    animation: 2s icons-doong-doong;
 }
